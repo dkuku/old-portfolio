@@ -20,6 +20,20 @@ export default class Projects extends Component {
             technology: ['bootstrap'],
             link: 'projects/prototype/index.html'
             },{
+            title: 'Chat app',
+            img: 'chat.png',
+            desc: 'Chat app written in node.js' ,
+            description: 'Aplication uses node.js express and socket.io',
+            technology: ["node.js", "socket.io"],
+            link: 'https://chat-node-by-kuku.herokuapp.com/'
+            },{
+            title: 'Todo App',
+            img: 'todo.png',
+            desc: 'Simple todo app',
+            description: 'using javascript, jQuery and local storage',
+            technology: ['html', 'css', 'js jQuery'],
+            link: 'projects/TodoListProject/index.html'
+            },{
             title: 'Rick Rocks',
             img: 'Asteroids.jpg',
             desc: 'Asteroids Clone' ,
