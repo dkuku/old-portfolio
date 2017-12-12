@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
-import { Header, Container, Item } from 'semantic-ui-react'
+import { Header, Container, Item, Grid } from 'semantic-ui-react'
 import Project from './Project';
 
 export default class Projects extends Component {
@@ -66,16 +66,16 @@ export default class Projects extends Component {
     render() {
         return (
             <Container>
-                <Header as='h3' block>
-                    Some Examples of my Projects
-                </Header>
-                <Item.Group divided>
+            <Header as='h3' block>
+                Some Examples of my Projects
+            </Header>
+            <Item.Group divided>
                 {this.props.projects.map((r, index) => {
                     return (
                         <Project key={index} num={index} {...r} />
                     )
-                })};
-                </Item.Group>
+                })}
+            </Item.Group>
             </Container>
         )
     }
