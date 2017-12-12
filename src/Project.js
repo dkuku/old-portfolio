@@ -21,7 +21,7 @@ export default class Project extends Component {
 
             <Item>
                 <Item.Content>
-                    <Item.Header as='a' href="{link}">{title}</Item.Header>
+                    <Item.Header as='a' href={link}>{title}</Item.Header>
                     <Item.Meta>{desc}</Item.Meta>
                     <Item.Description>
                     {description}
