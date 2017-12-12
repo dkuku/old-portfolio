@@ -1,30 +1,12 @@
 import React, { Component } from 'react';
+import MyHeading from './MyHeading';
 import {Segment, Image, Header, Container} from 'semantic-ui-react';
 
 export default class About extends Component {
   render() {
     return (
       <div>
-          <Segment
-            inverted
-            textAlign='center'
-            style={{ minHeight: 700, padding: '1em 0em' }}
-            vertical
-          >
-          <Image src='images/daniel-sq.jpg' size='large' circular centered/>  
-          <Header
-            as='h1'
-            content='Daniel Kukula'
-            inverted
-            style={{ fontSize: '4em', fontWeight: 'normal', marginBottom: 0, marginTop: '1em' }}
-          />
-          <Header
-            as='h2'
-            content='Junior Full Stack Developer.'
-            inverted
-            style={{ fontSize: '1.7em', fontWeight: 'normal' }}
-          />
-        </Segment>
+        <MyHeading/>
         <Segment>
           <Container text>
             <Header as='h2'>danie</Header>
