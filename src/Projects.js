@@ -6,6 +6,13 @@ import Project from './Project';
 export default class Projects extends Component {
     static defaultProps = {
         projects:[{
+            title:"Programming games solutions",
+            img: "checkio.png",
+            desc: "Checkio is the game for coders",
+            description: "My solutions for programming excercises on py.checkio.com",
+            technology: ["python 3"],
+            link: "https://py.checkio.org/user/dkuku/solutions/share/567ae072ff5162edf7de698d55a163d3/"
+            },{
             title:"Chalets and Caviar",
             img: "Chalets.jpg",
             desc: "Website for Real Estate Agency",
