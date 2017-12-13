@@ -4,12 +4,12 @@ import { Grid, Image, Item, Button } from 'semantic-ui-react';
 import Techlist from './Techlist';
 
 export default class Project extends Component {
-    static PropTypes = {
+    static propTypes = {
         title: PropTypes.string.isRequired,
-        desc: PropTypes.string.isRequired,
+        desc: PropTypes.string,
         description: PropTypes.string.isRequired,
         img: PropTypes.string.isRequired,
-        details: PropTypes.arrayOf(PropTypes.string).isRequired,
+        technology: PropTypes.arrayOf(PropTypes.string).isRequired,
         link: PropTypes.string}
     render() {
         const {title, img, desc, description, technology, link, key} = this.props;

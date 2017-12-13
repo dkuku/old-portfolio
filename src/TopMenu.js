@@ -7,7 +7,7 @@ const FixedMenu = () => (
         <Container>
             <Menu.Item as={NavLink} to="/"><Icon name='home'/> Home</Menu.Item>
             <Menu.Menu position="right">
-              <Menu.Item as={NavLink} to="/projects"><Icon name='code'/>Projects</Menu.Item>
+              <Menu.Item as={NavLink} to='/projects'><Icon name='code'/>Projects</Menu.Item>
               <Menu.Item as={NavLink} to='/about'><Icon name='user'/>About Me</Menu.Item>
               <Menu.Item as={NavLink} to='/contact'><Icon name='mail'/>Contact</Menu.Item>
             </Menu.Menu>

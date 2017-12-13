@@ -20,7 +20,7 @@ export default class Contact extends Component {
           <Button color='linkedin' as='a' href='https://www.linkedin.com/in/daniel-kukula-55057a57/'>
           <Icon name='linkedin' /> LinkedIn
           </Button>
-          <Button color='github' as='a' href='https://github.com/dkuku'>
+          <Button color='black' as='a' href='https://github.com/dkuku'>
             <Icon name='github' /> Github
           </Button>
         </Button.Group>

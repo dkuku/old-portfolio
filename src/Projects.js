@@ -8,16 +8,16 @@ export default class Projects extends Component {
         projects:[{
             title:"Chalets and Caviar",
             img: "Chalets.jpg",
-            desc: "Real Estate Agency Website",
+            desc: "Website for Real Estate Agency",
             description: "Website made using wordpress and some aditional plugins",
             technology: ["wordpress"],
             link: "http://dev-daniel-project2.pantheonsite.io/"
             },{
             title: "Brooklyn Outdoor Film Festival",
             img: 'Festival.jpg',
-            desc: 'Website for film festival',
+            desc: 'Website prototype for Film Festival',
             description: 'Frontend made using bootstrap',
-            technology: ['bootstrap'],
+            technology: ['bootstrap', "html", "js"],
             link: 'projects/prototype/index.html'
             },{
             title: 'Chat app',
@@ -47,28 +47,11 @@ export default class Projects extends Component {
             description: 'Game made using html, css and javascript',
             technology: ['html', 'css', 'js'],
             link: 'projects/rgb-color-game.html'
-            } , {
-            title: 'Simple image gallery',
-            img: 'gallery.jpg',
-            desc: 'Simple image gallery',
-            description: "made using bootstrap grid",
-            technology: ['html', 'css', 'bootstrap'],
-            link: 'projects/gallery.html'
-            } ,{
-            title: 'Recipe List',
-            img: 'Recipelist.jpg',
-            desc: 'Simple Recipe List in React',
-            description: '.1.2.3',
-            technology: ['react', 'js'],
-            link: "#"
-            }
+            } 
         ]}
     render() {
         return (
             <Container>
-            <Header as='h3' block>
-                Some Examples of my Projects
-            </Header>
             <Item.Group divided>
                 {this.props.projects.map((r, index) => {
                     return (
