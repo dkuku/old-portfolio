@@ -13,22 +13,23 @@ import './App.css';
 
 
 class App extends Component {
+
   render() {
     const page = this.props.location.pathname.split('/')[1].toUpperCase();
     return (
-      <div>
-        <TopMenu />
-        <Divider horizontal>
-        <Header as='h1' textAlign='center'>{page}</Header>
-        </Divider>
-        <Switch>
-          <Route exact component={About} path="/About" />
-          <Route exact component={Contact} path="/Contact" />
-          <Route exact component={Projects} path="/Projects" /> 
-          <Route exact component={Home} path="/" /> 
-          <Route component={Page404} />
-        </Switch>
-      </div>
+        <div>
+          <TopMenu />
+          <Divider horizontal>
+          <Header as='h1' textAlign='center'>{page}</Header>
+          </Divider>
+          <Switch>
+            <Route exact component={About} path="/About" />
+            <Route exact component={Contact} path="/Contact" />
+            <Route exact component={Projects} path="/Projects" /> 
+            <Route exact component={Home} path="/" /> 
+            <Route component={Page404} />
+          </Switch>
+        </div>
     );
   };
 };
