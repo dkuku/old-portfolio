@@ -3,6 +3,7 @@ import {  Switch, Route, withRouter } from 'react-router-dom';
 import {Header, Divider} from 'semantic-ui-react';
 
 import TopMenu from './TopMenu';
+import Footer from './Footer';
 import Home from './Home';
 import Projects from './Projects';
 import About from './About';
@@ -18,9 +19,12 @@ class App extends Component {
     return (
       <div>
         <TopMenu />
-        <Divider horizontal>
-        <Header as='h1' textAlign='center'>{page}</Header>
-        </Divider>
+        {/* Dont show header on main page */}
+        {page.length > 0 &&
+          <Divider horizontal>
+            <Header as='h1' textAlign='center'>{page}</Header>
+          </Divider>
+        }
         <Switch>
           <Route exact component={About} path="/About" />
           <Route exact component={Contact} path="/Contact" />
@@ -28,6 +32,7 @@ class App extends Component {
           <Route exact component={Home} path="/" /> 
           <Route component={Page404} />
         </Switch>
+        <Footer />
       </div>
     );
   };

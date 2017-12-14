@@ -59,7 +59,7 @@ export default class Projects extends Component {
     render() {
         return (
             <Container>
-            <Item.Group divided>
+            <Item.Group divided style={{ paddingBottom: '1em' }}>
                 {this.props.projects.map((r, index) => {
                     return (
                         <Project key={index} num={index} {...r} />
