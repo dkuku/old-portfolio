@@ -3,7 +3,7 @@ import {Menu, Container, Icon} from 'semantic-ui-react';
 import {NavLink} from 'react-router-dom';
 
 const FixedMenu = () => (
-    <Menu size='large'>
+    <Menu size='large' inverted style={{borderRadius: 0}}>
         <Container>
             <Menu.Item as={NavLink} to="/"><Icon name='home'/> Home</Menu.Item>
             <Menu.Menu position="right">
