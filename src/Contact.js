@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Grid} from 'semantic-ui-react';
 import MyHeading from './MyHeading';
-import {Icon, Header, Button} from 'semantic-ui-react';
+import ContactForm from './ContactForm';
+import {Icon, Header, Button, Grid} from 'semantic-ui-react';
 
 export default class Contact extends Component {
   render() {
@@ -12,6 +12,7 @@ export default class Contact extends Component {
         <MyHeading />
       </Grid.Column>
       <Grid.Column>
+        <ContactForm/>
         <Header as='h3' style={{ margin: '1em' }}>To Contact me please choose:</Header>
         <Button.Group vertical>
           <Button color="google plus" as='a' href='mailto:daniel.kuku@gmail.com'>
