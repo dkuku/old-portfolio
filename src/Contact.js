@@ -12,12 +12,10 @@ export default class Contact extends Component {
         <MyHeading />
       </Grid.Column>
       <Grid.Column>
+        <Header as='h3' style={{ margin: '1em' }}>Send me a message:</Header>
         <ContactForm/>
-        <Header as='h3' style={{ margin: '1em' }}>To Contact me please choose:</Header>
-        <Button.Group vertical>
-          <Button color="google plus" as='a' href='mailto:daniel.kuku@gmail.com'>
-          <Icon name="mail" /> Gmail
-          </Button>
+        <Header as='h3' style={{ margin: '1em' }}>Spy on me:</Header>
+        <Button.Group>
           <Button color='linkedin' as='a' href='https://www.linkedin.com/in/daniel-kukula-55057a57/'>
           <Icon name='linkedin' /> LinkedIn
           </Button>
