@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Segment, Image, Header, Container} from 'semantic-ui-react';
+import {Segment, Image, Header} from 'semantic-ui-react';
 
 export default class MyHeading extends Component {
   render() {
