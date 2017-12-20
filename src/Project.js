@@ -19,6 +19,7 @@ export default class Project extends Component {
             centered
             raised
             href={link}
+            target='_blank'
             >
                 <Image src={"images/".concat(img)} />
                 <Card.Content>
