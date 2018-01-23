@@ -59,7 +59,7 @@ export default class Projects extends Component {
             desc: 'Portfolio site',
             description: 'Project for OpenClassrooms Full-stack Developer Path. Made using react, react-router and semantic-ui',
             technology: ['react', 'react-router', 'semantic-ui'],
-            link: '#'
+            link: 'https://github.com/dkuku/portfolio-website'
             }
         ]}
     render() {
