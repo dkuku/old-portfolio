@@ -23,7 +23,7 @@ export default class Projects extends Component {
             img: 'Festival.jpg',
             desc: 'Website prototype for Film Festival',
             description: 'Project for OpenClassrooms Full-stack Developer Path. Frontend made using bootstrap and svg for diagonal sections',
-            technology: ['bootstrap', "html", "js", 'svg'], 
+            technology: ['bootstrap', "html", "js", 'svg'],
             link: 'projects/prototype/index.html'
             },{
             title: 'Chat app',
