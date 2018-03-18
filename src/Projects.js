@@ -63,15 +63,15 @@ export default class Projects extends Component {
             },{
             title: 'Move and Groove',
             img: 'mandg.jpg',
-            desc: 'Fitness tracker',
-            description: "Application written in rails for OpenClassrooms Full stach developer Path",
+            desc: 'Fitness Tracker',
+            description: "Project written for OpenClassrooms Full stack developer Path. Allows to register and add activities to user profile",
             technology: ['ruby on rails', 'devise', 'bootstrap'],
             link: 'http://mandgruby.herokuapp.com'
             }, {
             title: 'Boulder Bike Tour',
             img: 'bbt.jpg',
             desc: 'Full stach app using rails and react',
-            description: 'Project for OpenClassrooms Full-stack Developer Path. Goal wat to learn to use APIs',
+            description: 'Project for OpenClassrooms Full-stack Developer Path. Goal was to learn to use APIs. Used Google maps, flickr and own API written in rails',
             technology: ['api', 'react', 'rails'],
             link: 'http://boulderbiketour.herokuapp.com'
             }
