@@ -60,6 +60,20 @@ export default class Projects extends Component {
             description: 'Project for OpenClassrooms Full-stack Developer Path. Made using react, react-router and semantic-ui',
             technology: ['react', 'react-router', 'semantic-ui'],
             link: 'https://github.com/dkuku/portfolio-website'
+            },{
+            title: 'Move and Groove',
+            img: 'mandg.jpg',
+            desc: 'Fitness tracker',
+            description: "Application written in rails for OpenClassrooms Full stach developer Path",
+            technology: ['ruby on rails', 'devise', 'bootstrap'],
+            link: 'http://mandgruby.herokuapp.com'
+            }, {
+            title: 'Boulder Bike Tour',
+            img: 'bbt.jpg',
+            desc: 'Full stach app using rails and react',
+            description: 'Project for OpenClassrooms Full-stack Developer Path. Goal wat to learn to use APIs',
+            technology: ['api', 'react', 'rails'],
+            link: 'http://boulderbiketour.herokuapp.com'
             }
         ]}
     render() {
