@@ -10,12 +10,13 @@ export default class Project extends Component {
         description: PropTypes.string.isRequired,
         img: PropTypes.string.isRequired,
         technology: PropTypes.arrayOf(PropTypes.string).isRequired,
+        color: PropTypes.string,
         link: PropTypes.string}
     render() {
-        const {title, img, desc, description, technology, link} = this.props;
+        const {title, img, desc, color, description, technology, link} = this.props;
 
         return (
-            <Card 
+            <Card
             centered
             raised
             href={link}
@@ -23,7 +24,7 @@ export default class Project extends Component {
             >
                 <Image src={"images/".concat(img)} />
                 <Card.Content>
-                    <Label style={{marginBottom: '0.5em'}} as='a' color='teal' ribbon>{technology[0]}</Label>
+                    <Label style={{marginBottom: '0.5em'}} as='a' color={color} ribbon>{technology[0]}</Label>
                     <Card.Header>{title}</Card.Header>
                     <Card.Meta>{desc}</Card.Meta>
                     <Card.Description>{description}</Card.Description>
