@@ -1,3 +1,3 @@
-Online website:
+Repository for my portfolio website:
 
-https://daniel-kukula-portfolio.herokuapp.com/
+https://dkuku.github.io
