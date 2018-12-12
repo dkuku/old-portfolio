@@ -24,7 +24,7 @@ export default class Project extends Component {
             >
                 <Image src={"images/".concat(img)} />
                 <Card.Content>
-                    <Label style={{marginBottom: '0.5em'}} as='a' color={color} ribbon>{technology[0]}</Label>
+                    <Label style={{marginBottom: '0.5em'}} color={color} ribbon>{technology[0]}</Label>
                     <Card.Header>{title}</Card.Header>
                     <Card.Meta>{desc}</Card.Meta>
                     <Card.Description>{description}</Card.Description>
